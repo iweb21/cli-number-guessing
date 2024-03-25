@@ -1,0 +1,29 @@
+{
+  "name": "@sumera/sgg21",
+  "version": "2.0.1",
+  "description": "cli based guessing game",
+  "main": "index.js",
+  "bin": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iweb21/cli-number-guessing.git"
+  },
+  "author": "Sumera imran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iweb21/cli-number-guessing/issues"
+  },
+  "homepage": "https://github.com/iweb21/cli-number-guessing#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.16",
+    "sgg21": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
